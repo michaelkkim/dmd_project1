@@ -10,6 +10,3 @@ A new algorithm for sampling parameters in a structured correlation matrix with 
 
 ### Inside `y_sim_1/target/...` folder:
 - Posterior estimates of model parameters computed from `data_mcmc_analy_1.R` -- needed to run `sim_datasets_1st_1.R`.
-
-### Notes:
-- key functions to approximate positive definite bounds for any structured covariance or correlation matrix are the `rho_biggest_submatrix_indxs` and `barnard` functions inside `functions_1.R`.
