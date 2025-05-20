@@ -9,4 +9,4 @@ A new algorithm for sampling parameters in a structured correlation matrix with 
 - _sim_analy_3rd_1.R_ executes posterior analysis for simulation data
 
 ### Inside _y_sim_1/target/..._ folder:
-- Posterior estimates of model parameters computed from _data_mcmc_analy_1.R_ -- needed for _sim_datasets_1st_1.R_.
+- Posterior estimates of model parameters computed from _data_mcmc_analy_1.R_ -- needed to run _sim_datasets_1st_1.R_.
