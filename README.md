@@ -8,5 +8,5 @@ A new algorithm for sampling parameters in a structured correlation matrix with 
 - _sim_mcmc_2nd_1.R_ executes MCMC for simulation data
 - _sim_analy_3rd_1.R_ executes posterior analysis for simulation data
 
-### Inside _y_sim_1/..._ folder:
-- _target/..._ folder contains posterior estimates of model parameters which were computed from _data_mcmc_analy_1.R_. This folder is needed to run _sim_datasets_1st_1.R_.
+### Inside _y_sim_1/target/..._ folder:
+- Posterior estimates of model parameters which were computed from _data_mcmc_analy_1.R_. This folder is needed to run _sim_datasets_1st_1.R_.
