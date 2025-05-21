@@ -10,3 +10,6 @@ A new algorithm for sampling parameters in a structured correlation matrix with 
 
 ### Inside `y_sim_1/target/...` folder:
 - Posterior estimates of model parameters computed from `data_mcmc_analy_1.R` -- needed to run `sim_datasets_1st_1.R`.
+
+### `pd_intervals_example`
+- Detailed toy example to help others be able to compute positive definite (PD) bounds for correlation elements inside of their own structured correlation matrix. The key idea is to offload any computational burden from the actual MCMC by flexibly applying numerous helper functions before the MCMC when dealing with the structured correlation matrix.
